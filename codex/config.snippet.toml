@@ -1,0 +1,20 @@
+personality = "pragmatic"
+model = "gpt-6.1-sol"
+model_reasoning_effort = "high"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+
+[features]
+multi_agent = true
+js_repl = false
+memories = true
+chronicle = false
+
+[plugins."made-code-review@personal"]
+enabled = true
+
+[plugins."superpowers@openai-curated"]
+enabled = false
+
+[plugins."superpowers@openai-curated-remote"]
+enabled = false

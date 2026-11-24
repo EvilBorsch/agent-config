@@ -1,0 +1,18 @@
+{
+  "name": "made-code-review",
+  "version": "0.1.0",
+  "description": "Read-only Go PR review skill with GitLab-ready feedback",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Made code review",
+    "shortDescription": "Review Go PRs with GitLab-ready feedback.",
+    "longDescription": "Made code review adds a strict read-only Go code review skill that inspects PR scope through git, prioritizes real correctness risks, and returns Russian GitLab-ready general summaries and inline comments.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use $made-code-review to review the current Go PR and return GitLab-ready feedback."
+  }
+}

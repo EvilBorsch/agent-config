@@ -1,0 +1,4 @@
+interface:
+  display_name: "Made code review"
+  short_description: "Review Go PRs with GitLab-ready feedback"
+  default_prompt: "Use $made-code-review to review the current Go PR and return GitLab-ready feedback."
